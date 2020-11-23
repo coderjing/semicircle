@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  demo
+//
+//  Created by jing on 2020/11/23.
+//  Copyright © 2020 jing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define Bound_Width [UIScreen mainScreen].bounds.size.width
+#define Bound_Height [UIScreen mainScreen].bounds.size.height
+#define mainColor  @"#00CCFF"
+
+#import "UIColor+HexColor.h"
+#import "UIView+Size.h"
+
+
+#endif /* PrefixHeader_pch */

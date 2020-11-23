@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F6F55FA2415D63800C5FD32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F55F92415D63800C5FD32 /* AppDelegate.m */; };
-		3F6F55FD2415D63800C5FD32 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F55FC2415D63800C5FD32 /* SceneDelegate.m */; };
 		3F6F56002415D63800C5FD32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F55FF2415D63800C5FD32 /* ViewController.m */; };
 		3F6F56032415D63800C5FD32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F56012415D63800C5FD32 /* Main.storyboard */; };
 		3F6F56052415D63900C5FD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6F56042415D63900C5FD32 /* Assets.xcassets */; };
@@ -16,6 +15,12 @@
 		3F6F560B2415D63900C5FD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F560A2415D63900C5FD32 /* main.m */; };
 		3F6F56152415D63900C5FD32 /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F56142415D63900C5FD32 /* demoTests.m */; };
 		3F6F56202415D63900C5FD32 /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F561F2415D63900C5FD32 /* demoUITests.m */; };
+		3FF168BF256BF37100ACFF7A /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168BE256BF37100ACFF7A /* UIView+Size.m */; };
+		3FF168C2256BF46300ACFF7A /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168C1256BF46300ACFF7A /* UIColor+HexColor.m */; };
+		3FF168C5256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168C4256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.m */; };
+		3FF168C8256BF60900ACFF7A /* JYZJHotFormulaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168C7256BF60900ACFF7A /* JYZJHotFormulaCell.m */; };
+		3FF168CB256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168CA256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.m */; };
+		3FF168D0256BF88B00ACFF7A /* JYZJFormulaRightBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF168CF256BF88B00ACFF7A /* JYZJFormulaRightBackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		3F6F55F52415D63800C5FD32 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6F55F82415D63800C5FD32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F6F55F92415D63800C5FD32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F6F55FB2415D63800C5FD32 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3F6F55FC2415D63800C5FD32 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3F6F55FE2415D63800C5FD32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F6F55FF2415D63800C5FD32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F6F56022415D63800C5FD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,19 @@
 		3F6F561B2415D63900C5FD32 /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6F561F2415D63900C5FD32 /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		3F6F56212415D63900C5FD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF168BD256BF37100ACFF7A /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		3FF168BE256BF37100ACFF7A /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		3FF168C0256BF46300ACFF7A /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		3FF168C1256BF46300ACFF7A /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		3FF168C3256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYZJCircularCollectionViewLayout.h; sourceTree = "<group>"; };
+		3FF168C4256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZJCircularCollectionViewLayout.m; sourceTree = "<group>"; };
+		3FF168C6256BF60900ACFF7A /* JYZJHotFormulaCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYZJHotFormulaCell.h; sourceTree = "<group>"; };
+		3FF168C7256BF60900ACFF7A /* JYZJHotFormulaCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZJHotFormulaCell.m; sourceTree = "<group>"; };
+		3FF168C9256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYZJFormulaRecommendationView.h; sourceTree = "<group>"; };
+		3FF168CA256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZJFormulaRecommendationView.m; sourceTree = "<group>"; };
+		3FF168CE256BF88B00ACFF7A /* JYZJFormulaRightBackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYZJFormulaRightBackView.h; sourceTree = "<group>"; };
+		3FF168CF256BF88B00ACFF7A /* JYZJFormulaRightBackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYZJFormulaRightBackView.m; sourceTree = "<group>"; };
+		3FF168D1256BF94B00ACFF7A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +120,21 @@
 		3F6F55F72415D63800C5FD32 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				3FF168CD256BF83100ACFF7A /* Vendor */,
+				3FF168CC256BF81200ACFF7A /* Category */,
 				3F6F55F82415D63800C5FD32 /* AppDelegate.h */,
 				3F6F55F92415D63800C5FD32 /* AppDelegate.m */,
-				3F6F55FB2415D63800C5FD32 /* SceneDelegate.h */,
-				3F6F55FC2415D63800C5FD32 /* SceneDelegate.m */,
 				3F6F55FE2415D63800C5FD32 /* ViewController.h */,
 				3F6F55FF2415D63800C5FD32 /* ViewController.m */,
+				3FF168C3256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.h */,
+				3FF168C4256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.m */,
+				3FF168C6256BF60900ACFF7A /* JYZJHotFormulaCell.h */,
+				3FF168C7256BF60900ACFF7A /* JYZJHotFormulaCell.m */,
+				3FF168CE256BF88B00ACFF7A /* JYZJFormulaRightBackView.h */,
+				3FF168CF256BF88B00ACFF7A /* JYZJFormulaRightBackView.m */,
+				3FF168C9256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.h */,
+				3FF168CA256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.m */,
+				3FF168D1256BF94B00ACFF7A /* PrefixHeader.pch */,
 				3F6F56012415D63800C5FD32 /* Main.storyboard */,
 				3F6F56042415D63900C5FD32 /* Assets.xcassets */,
 				3F6F56062415D63900C5FD32 /* LaunchScreen.storyboard */,
@@ -135,6 +160,24 @@
 				3F6F56212415D63900C5FD32 /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		3FF168CC256BF81200ACFF7A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3FF168BD256BF37100ACFF7A /* UIView+Size.h */,
+				3FF168BE256BF37100ACFF7A /* UIView+Size.m */,
+				3FF168C0256BF46300ACFF7A /* UIColor+HexColor.h */,
+				3FF168C1256BF46300ACFF7A /* UIColor+HexColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3FF168CD256BF83100ACFF7A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +310,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF168C5256BF58000ACFF7A /* JYZJCircularCollectionViewLayout.m in Sources */,
 				3F6F56002415D63800C5FD32 /* ViewController.m in Sources */,
+				3FF168BF256BF37100ACFF7A /* UIView+Size.m in Sources */,
 				3F6F55FA2415D63800C5FD32 /* AppDelegate.m in Sources */,
+				3FF168CB256BF7EE00ACFF7A /* JYZJFormulaRecommendationView.m in Sources */,
 				3F6F560B2415D63900C5FD32 /* main.m in Sources */,
-				3F6F55FD2415D63800C5FD32 /* SceneDelegate.m in Sources */,
+				3FF168D0256BF88B00ACFF7A /* JYZJFormulaRightBackView.m in Sources */,
+				3FF168C2256BF46300ACFF7A /* UIColor+HexColor.m in Sources */,
+				3FF168C8256BF60900ACFF7A /* JYZJHotFormulaCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = demo/PrefixHeader.pch;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +506,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = demo/PrefixHeader.pch;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
